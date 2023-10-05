@@ -163,3 +163,10 @@ print(comb)
 #at last lest look at some statistics
 print(reg.coef_)
 print(warsaw.corr()['target'])
+
+"""From those statistics we can infer that the colunms that are used the most are 
+Average temp and week_max
+we also printed the correlations to see if the model is actually working on relevent data
+It seems that it is and most of the columns are higely correlated with the data"""
+
+#thats it for now
